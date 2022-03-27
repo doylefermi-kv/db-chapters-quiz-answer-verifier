@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# output files that are frequently used
+*_sqls
+responses.tsv.final

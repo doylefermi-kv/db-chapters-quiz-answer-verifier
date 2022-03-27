@@ -1,0 +1,5 @@
+Timestamp	Email address	Answer:
+27/03/2022 21:33:06	doyle@keyvalue.systems	select 1;
+27/03/2022 21:33:07	doyle1@keyvalue.systems	select count(1) from dual;
+27/03/2022 21:33:08	doyle2@keyvalue.systems	error
+27/03/2022 21:33:05	doyle3@keyvalue.systems	error;
