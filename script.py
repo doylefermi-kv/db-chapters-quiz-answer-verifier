@@ -82,7 +82,7 @@ correct_participants = []
 wrong_participants = []
 
 folder_prefix = "{}_sqls".format(sys.argv[1])
-for filename in os.listdir(folder_prefix):
+for filename in sorted(os.listdir(folder_prefix)):
     participant_answer = execute_sql(os.path.join(folder_prefix, filename))
     log.debug("Participant answer: {}".format(participant_answer))
 
